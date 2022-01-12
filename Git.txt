@@ -1,0 +1,19 @@
+untracked - arquivos que o git ainda não tem conhecimento ;
+
+Tracked - Arquivos que o git conhece :
+
+- Unmodified - Arquivo ainda não modificados
+- Modified - Arquivos modificados 
+- staging -
+
+commit - integrar o repositorio local 
+
+add para staged 
+
+git add strogonoff.md - adiciona os arquivos a stage
+
+git commit -m " " - cria uma imagem do estado do repositorio snapshot 
+
+git push origin master - Enviando para o gitHub
+ 
+git pull origin master -  Puxa um arquivo alterado e tenta junta-lo com as suas modificações. 
