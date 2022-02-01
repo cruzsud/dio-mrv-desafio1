@@ -1,0 +1,17 @@
+Estrutura de dados
+
+Listas encadeadas
+Em uma lista encadeada , para cada novo elemento inserido na estrutura, alocamos um espaço de memória para armazená-lo. Dessa forma, o espaço total ocupado na memória é proporcional ao número de elementos da lista. No entanto, não podemos garantir que os elementos armazenados na memória ocuparão um espaço contíguo, e por isso não temos acesso aos elementos da lista diretamente.
+
+Para percorrer e ter acesso aos elementos da lista devemos guardar o seu encadeamento. Sendo assim a estrutura consiste em uma sequência encadeada de elementos, chamados de nós da lista. Cada nó da lista tem a sua informação, podendo ser um valor inteiro, real, caractere ou até uma sequência de caracteres, e um ponteiro para o próximo elemento da lista.
+
+A imagem a seguir representa este conceito, onde do primeiro elemento, temos acesso ao segundo, e assim por diante. Sendo que o último elemento armazenado um ponteiro inválido, com valor NULL, indicando o fim da lista.
+
+Pilhas
+Uma das estrutura de dados mais simples é a pilha. Sua ideia fundamental é que todo acesso a seus elementos seja feito a partir do topo. Assim quando um elemento é inserido na pilha, ele passa a ser o elemento do topo e só temos acesso a ele. Logo, os elementos da pilha só podem ser retirados na ordem inversa a ordem que foram inseridos : o primeiro que sai e o último que entrou (LIFO – Last in ,first out). Uma pilha pode ser implementada utilizando um vetor, se tivermos a informação do número máximo de elementos que iremos armazenar, ou utilizando uma lista encadeada quando não sabemos quantos elementos iremos armazenar.
+
+
+Filas
+Na estrutura de fila, o acesso aos elementos também segue regras. Sua ideia fundamental é que só podemos inserir elementos no final da fila e retirar do início da fila (FIFO – First in, first out). Assim como a pilha, a fila pode ser implementada com vetores ou com listas encadeadas, dependendo apenas se soubermos a quantidade máxima de elementos que cabem nesta fila.
+
+ 

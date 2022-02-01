@@ -1,0 +1,20 @@
+Logica
+
+
+Estrutura de Repetição
+
+O que é estrutura de repetição? Dentro da lógica de programação é uma estrutura que permite executar mais de uma vez o mesmo comando ou conjunto de comandos, de acordo com uma condição ou com um contador.
+Exemplo:
+        for(i=0; i<10; i++){
+            soma = 5+i
+        }
+
+Estrutura condição
+
+
+As estruturas condicionais permitem que um programa execute diferentes comandos de acordo com as condições estabelecidas. Elas estão presentes em diversas linguagens de programação e todo profissional da área precisa saber como utilizá-las.6 de ago. de 2021
+
+Exemplo: 
+       if(x==10){
+           print "aprovado"
+       }
